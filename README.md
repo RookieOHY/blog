@@ -42,5 +42,3 @@ REPO_OWNER=<required>
 ### Summary
 
 If you need Open AI to generate your article summaries, delete `summary.json` in root folder and paste your `OPENAI_API_KEY` in `.env`.
-
-### 目录结构
