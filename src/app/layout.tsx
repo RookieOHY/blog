@@ -78,31 +78,31 @@ export default function RootLayout({ children }) {
           rel='icon'
           type='image/png'
           sizes='32x32'
-          href='/icon/favicon-32x32.png'
+          href='/icon/fc32.png'
         />
         <link
           rel='icon'
           type='image/png'
           sizes='16x16'
-          href='/icon/favicon-16x16.png'
+          href='/icon/fc16.png'
         />
         <link
           rel='apple-touch-icon'
           sizes='180x180'
-          href='/icon/apple-touch-icon.png'
+          href='/icon/ati180.png'
         />
         <link rel='manifest' href='/site.webmanifest' />
         <link
           rel='icon'
           type='image/png'
           sizes='192x192'
-          href='/icon/android-chrome-192x192.png'
+          href='/icon/ac192.png'
         />
         <link
           rel='icon'
           type='image/png'
           sizes='512x512'
-          href='/icon/android-chrome-512x512.png'
+          href='/icon/ac512.png'
         />
         <DarkToggleScript />
       </head>
