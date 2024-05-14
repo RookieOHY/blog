@@ -78,13 +78,13 @@ export default function RootLayout({ children }) {
           rel='icon'
           type='image/png'
           sizes='32x32'
-          href='/icon/fc32.png'
+          href='/icon/favicon-32x32.png'
         />
         <link
           rel='icon'
           type='image/png'
           sizes='16x16'
-          href='/icon/fc16.png'
+          href='/icon/favicon-16x16.png'
         />
         <link
           rel='apple-touch-icon'
