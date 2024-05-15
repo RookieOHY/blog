@@ -17,6 +17,15 @@ import tailwindCSSSvg from '@/images/logo/tailwind-css.svg'
 import typeScriptSvg from '@/images/logo/typescript.svg'
 import vueSvg from '@/images/logo/vue.svg'
 import webpackSvg from '@/images/logo/webpack.svg'
+import javaSvg from '@/images/logo/java-5.svg'
+import dockerSvg from '@/images/logo/docker-4.svg'
+import rustSvg from '@/images/logo/rust.svg'
+import goSvg from '@/images/logo/go-logo-1.svg'
+import vscSvg from '@/images/logo/visual-studio-code-1.svg'
+import vitejsSvg from '@/images/logo/vitejs.svg'
+import k8sSvg from '@/images/logo/kubernets.svg'
+import ideaSvg from '@/images/logo/intellij-idea-1.svg'
+import flutterSvg from '@/images/logo/flutter-logo.svg'
 
 import { Block } from '@/components/blocks/block'
 
@@ -25,6 +34,14 @@ const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
 })
 
 const images: StaticImageData[] = [
+  flutterSvg,
+  ideaSvg,
+  k8sSvg,
+  vitejsSvg,
+  vscSvg,
+  goSvg,
+  dockerSvg,
+  javaSvg,
   htmlSvg,
   cssSvg,
   javascriptSvg,
