@@ -1,30 +1,30 @@
 import dynamic from 'next/dynamic'
 import { type StaticImageData } from 'next/image'
 
-import javaSvg from '@/images/logo/java-5.svg'
-import dockerSvg from '@/images/logo/docker-4.svg'
-import rustSvg from '@/images/logo/rust.svg'
-import goSvg from '@/images/logo/go-logo-1.svg'
-import vscSvg from '@/images/logo/visual-studio-code-1.svg'
-import vitejsSvg from '@/images/logo/vitejs.svg'
-import k8sSvg from '@/images/logo/kubernets.svg'
-import ideaSvg from '@/images/logo/intellij-idea-1.svg'
-import flutterSvg from '@/images/logo/flutter-logo.svg'
 import cssSvg from '@/images/logo/css.svg'
+import dockerSvg from '@/images/logo/docker-4.svg'
+import flutterSvg from '@/images/logo/flutter-logo.svg'
 import gatsbySvg from '@/images/logo/gatsby.svg'
 import graphqlSvg from '@/images/logo/graphql.svg'
+import goSvg from '@/images/logo/go-logo-1.svg'
 import htmlSvg from '@/images/logo/html.svg'
+import ideaSvg from '@/images/logo/intellij-idea-1.svg'
+import javaSvg from '@/images/logo/java-5.svg'
 import javascriptSvg from '@/images/logo/javascript.svg'
+import k8sSvg from '@/images/logo/kubernets.svg'
 import nestjsSvg from '@/images/logo/nestjs.svg'
 import nextjsSvg from '@/images/logo/nextjs.svg'
 import nodejsSvg from '@/images/logo/nodejs.svg'
 import prismaSvg from '@/images/logo/prisma.svg'
 import reactNativeSvg from '@/images/logo/react-native.svg'
 import reactSvg from '@/images/logo/react.svg'
+import rustSvg from '@/images/logo/rust.svg'
 import swiftSvg from '@/images/logo/swift.svg'
 import tailwindCSSSvg from '@/images/logo/tailwind-css.svg'
 import typeScriptSvg from '@/images/logo/typescript.svg'
+import vitejsSvg from '@/images/logo/vitejs.svg'
 import vueSvg from '@/images/logo/vue.svg'
+import vscSvg from '@/images/logo/visual-studio-code-1.svg'
 import webpackSvg from '@/images/logo/webpack.svg'
 
 
@@ -35,31 +35,31 @@ const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
 })
 
 const images: StaticImageData[] = [
-  rustSvg,
-  flutterSvg,
-  ideaSvg,
-  k8sSvg,
-  vitejsSvg,
-  vscSvg,
-  goSvg,
-  dockerSvg,
-  javaSvg,
-  htmlSvg,
   cssSvg,
-  javascriptSvg,
-  typeScriptSvg,
-  reactSvg,
-  tailwindCSSSvg,
-  nextjsSvg,
+  dockerSvg,
+  flutterSvg,
   gatsbySvg,
-  vueSvg,
-  nodejsSvg,
-  reactNativeSvg,
-  webpackSvg,
-  swiftSvg,
-  nestjsSvg,
-  prismaSvg,
   graphqlSvg,
+  goSvg,
+  htmlSvg,
+  ideaSvg,
+  javaSvg,
+  javascriptSvg,
+  k8sSvg,
+  nestjsSvg,
+  nextjsSvg,
+  nodejsSvg,
+  prismaSvg,
+  reactNativeSvg,
+  reactSvg,
+  rustSvg,,
+  swiftSvg,
+  tailwindCSSSvg,
+  typeScriptSvg,
+  vitejsSvg,
+  vueSvg,
+  vscSvg,
+  webpackSvg
 ]
 export const Skills = () => {
   return (
