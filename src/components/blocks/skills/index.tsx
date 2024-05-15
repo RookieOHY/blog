@@ -58,7 +58,7 @@ const images: StaticImageData[] = [
   vitejsSvg,
   vueSvg,
   vscSvg,
-  webpackSvg
+  webpackSvg,
 ]
 export const Skills = () => {
   return (
