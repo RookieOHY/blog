@@ -34,6 +34,7 @@ const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
 })
 
 const images: StaticImageData[] = [
+  rustSvg,
   flutterSvg,
   ideaSvg,
   k8sSvg,
