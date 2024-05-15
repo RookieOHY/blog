@@ -5,8 +5,8 @@ import cssSvg from '@/images/logo/css.svg'
 import dockerSvg from '@/images/logo/docker-4.svg'
 import flutterSvg from '@/images/logo/flutter-logo.svg'
 import gatsbySvg from '@/images/logo/gatsby.svg'
-import graphqlSvg from '@/images/logo/graphql.svg'
 import goSvg from '@/images/logo/go-logo-1.svg'
+import graphqlSvg from '@/images/logo/graphql.svg'
 import htmlSvg from '@/images/logo/html.svg'
 import ideaSvg from '@/images/logo/intellij-idea-1.svg'
 import javaSvg from '@/images/logo/java-5.svg'
@@ -22,11 +22,10 @@ import rustSvg from '@/images/logo/rust.svg'
 import swiftSvg from '@/images/logo/swift.svg'
 import tailwindCSSSvg from '@/images/logo/tailwind-css.svg'
 import typeScriptSvg from '@/images/logo/typescript.svg'
+import vscSvg from '@/images/logo/visual-studio-code-1.svg'
 import vitejsSvg from '@/images/logo/vitejs.svg'
 import vueSvg from '@/images/logo/vue.svg'
-import vscSvg from '@/images/logo/visual-studio-code-1.svg'
 import webpackSvg from '@/images/logo/webpack.svg'
-
 
 import { Block } from '@/components/blocks/block'
 
@@ -52,7 +51,7 @@ const images: StaticImageData[] = [
   prismaSvg,
   reactNativeSvg,
   reactSvg,
-  rustSvg,,
+  rustSvg,
   swiftSvg,
   tailwindCSSSvg,
   typeScriptSvg,
